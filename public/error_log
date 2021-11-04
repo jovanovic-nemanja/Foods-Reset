@@ -1,0 +1,30 @@
+[28-Apr-2021 03:13:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[28-Apr-2021 03:13:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[28-Apr-2021 03:13:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home3/k8v6q7u7/public_html/resetfoodv5/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home3/k8v6q7u7/public_html/resetfoodv5/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(933): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home3/k8v6q7u7/public_html/resetfoodv5/vendor/symfony/var-dumper/Dumper/CliDumper.php(562): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home3/k8v6q7u7/public_html/resetfoodv5/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home3/k8v6q7u7/public_html/resetfoodv5/vendor/symfony/var-dumper/Cloner/Data.php(365): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'PHP's json exte...', false, 0)
+#4 /home3/k8v6q7u7/public_html/resetfoodv5/vendor/symfony/var-dumper/C in /home3/k8v6q7u7/public_html/resetfoodv5/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[28-Apr-2021 03:13:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home3/k8v6q7u7/public_html/resetfoodv5/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home3/k8v6q7u7/public_html/resetfoodv5/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(933): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home3/k8v6q7u7/public_html/resetfoodv5/vendor/symfony/var-dumper/Dumper/CliDumper.php(562): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home3/k8v6q7u7/public_html/resetfoodv5/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home3/k8v6q7u7/public_html/resetfoodv5/vendor/symfony/var-dumper/Cloner/Data.php(365): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'PHP's json exte...', false, 0)
+#4 /home3/k8v6q7u7/public_html/resetfoodv5/vendor/symfony/var-dumper/C in /home3/k8v6q7u7/public_html/resetfoodv5/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[28-Apr-2021 03:13:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home3/k8v6q7u7/public_html/resetfoodv5/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home3/k8v6q7u7/public_html/resetfoodv5/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(933): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home3/k8v6q7u7/public_html/resetfoodv5/vendor/symfony/var-dumper/Dumper/CliDumper.php(562): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home3/k8v6q7u7/public_html/resetfoodv5/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home3/k8v6q7u7/public_html/resetfoodv5/vendor/symfony/var-dumper/Cloner/Data.php(365): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'PHP's json exte...', false, 0)
+#4 /home3/k8v6q7u7/public_html/resetfoodv5/vendor/symfony/var-dumper/C in /home3/k8v6q7u7/public_html/resetfoodv5/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[28-Apr-2021 03:13:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home3/k8v6q7u7/public_html/resetfoodv5/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home3/k8v6q7u7/public_html/resetfoodv5/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(933): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home3/k8v6q7u7/public_html/resetfoodv5/vendor/symfony/var-dumper/Dumper/CliDumper.php(562): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home3/k8v6q7u7/public_html/resetfoodv5/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home3/k8v6q7u7/public_html/resetfoodv5/vendor/symfony/var-dumper/Cloner/Data.php(365): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'PHP's json exte...', false, 0)
+#4 /home3/k8v6q7u7/public_html/resetfoodv5/vendor/symfony/var-dumper/C in /home3/k8v6q7u7/public_html/resetfoodv5/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162

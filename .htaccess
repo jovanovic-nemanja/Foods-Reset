@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    RewriteRule ^(.*)$ public/$1 [L]
+    RewriteRule ^(.*)$ https://v5.resetfoods.com/$1 [R,L]
+</IfModule>

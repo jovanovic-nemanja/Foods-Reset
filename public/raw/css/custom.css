@@ -1,0 +1,20 @@
+.f_left{
+    float: left !important;
+    padding-top: 30px !important;
+}
+#step{
+    text-align: left !important;
+}
+.p-50{
+    padding-top: 50px !important;
+}
+.p-100{
+    padding-top: 100px !important;
+}
+.form_0{
+    margin-bottom: 0rem !important;
+}
+
+.border-info {
+    border-color: #e8e8e8!important;
+}

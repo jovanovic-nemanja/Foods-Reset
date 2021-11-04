@@ -1,0 +1,61 @@
+.home-page, .about-page, .offering-page, .marketplace-page {
+    margin-top: 50px;
+}
+
+.home-page p, .about-page p, .offering-page p, .marketplace-page p {
+    font-size: 20px;
+    line-height: 2;
+}
+
+.home-page img, .offering-page img, .marketplace-page img {
+    width: 70%;
+}
+
+.faq-page {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.faq-page h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.faq-page .faq-quiz {
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.career-page {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.career-stack {
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.contact-page h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.contact-page p {
+    font-weight: 500;
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+
+}

@@ -1,0 +1,249 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+
+.container {
+    width: 95%;
+    max-width: 100%;
+}
+.sticky-table .table th, .table td {
+    padding: 15px 8px;
+    vertical-align: top;
+    border-top: 0px solid #eceeef;
+}
+.btn-blue,
+.blue-bg{
+	background:#4F81BD;
+	color:#fff
+}
+.btn-grey{
+	background:#767676;
+	color:#fff
+}
+.sticky-table{
+	border-top:0 !important;
+	border-bottom:0 !important;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+	font-size:12px;
+}
+
+/*HEADERR*/
+header[role="mast-head"] .forgetpass{
+	font-size:12px;
+	margin:6px 0;
+}
+header[role="mast-head"] .forgetpass a{
+	color:#4F81BD;
+	text-decoration:underline
+}
+header[role="mast-head"] .custom-control-indicator{
+	top:0px;
+}
+
+header[role="mast-head"] .btn{
+	font-size:12px;
+	font-weight:600
+}
+
+main[role="main-wrapper"] section[role="home-page"] .select-holder{
+	background:#f5f5f5;
+	padding:20px;
+	border-radius:3px;
+}
+main[role="main-wrapper"] section[role="home-page"] .select-holder select{
+	min-width:320px
+}
+
+
+/*REGISTER PAGE CSS STARTS HERE*/
+main[role="main-wrapper"] section[role="register-page"] .register-form-holder{
+	background:#fff;
+	border:1px solid rgba(0,0,0,0.1);
+	padding:60px 60px;
+	padding-top:30px;
+	border-radius:3px;
+	max-width:600px;
+	margin:auto;
+	font-size:12px;
+}
+main[role="main-wrapper"] section[role="register-page"] .register-form-holder form.custom label{
+	margin-bottom:4px;
+	color:#000;
+}
+main[role="main-wrapper"] section[role="register-page"] .register-form-holder form.custom .form-control{
+	height:40px;
+}
+main[role="main-wrapper"] section[role="register-page"] .register-form-holder form.custom textarea.form-control{
+	height:auto
+}
+
+main[role="main-wrapper"] section .logistics{
+	border:1px solid rgba(0,0,0,0.1);
+	padding:10px
+}
+main[role="main-wrapper"] section .logistics td{
+	padding:8px 3px; 
+	font-size:12px;
+	border:none
+}
+main[role="main-wrapper"] section .logistics td:first-child{
+	width:160px;
+}
+main[role="main-wrapper"] section .logistics td .custom-control{
+	width:100%
+}
+main[role="main-wrapper"] section .logistics td .custom-control-indicator{
+	top:1px
+}
+main[role="main-wrapper"] section td.rating{
+	width:110px;
+}
+
+
+main[role="main-wrapper"] section .description{
+	border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    padding: 15px;
+    width: 90%;
+}
+
+.flash-notification
+{
+margin-right: 30%;
+    margin-top: 1%;
+    margin-left: 30%;
+}
+  
+ 
+    .optionGroup {
+    font-weight: bold;
+    font-style: italic;
+    font-size:20px;
+}
+    
+.optionChild {
+    padding-left: 15px;
+}
+.label-info {
+    background-color: #5bc0de;
+}
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+/*NAVIGATION PART*/
+main[role="main-wrapper"] .drop-menu ul{
+    background: #fff;
+    border: medium none;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(98, 98, 98, 0.2);
+    float: left;
+    font-size: 13px;
+    list-style: outside none none;
+    margin: 0;
+    min-width: 50px;
+    position: absolute;
+    text-shadow: none;
+    z-index: 700;
+	padding:0px;
+	text-align:center;
+	min-width:160px;
+	right:0px;
+	top:100%;
+	transform: scaleY(0);
+    transform-origin: 1% 1% 0;
+    transition-delay: 0.2s;
+}
+.trans *,img,:after,:before,.tumbImg .overlay:after,.tumbImg .overlay,
+.dropdown-menu >li:hover>a,.dropdown-menu >li>a,
+.tHead .top-head-bar .top-right .list-item-inline li:hover .drop-down{
+	-webkit-transition:all 0.6s ease-out 0s; 
+	   -moz-transition:all 0.6s ease-out 0s; 
+	     -o-transition:all 0.6s ease-out 0s; 
+	    -ms-transition:all 0.6s ease-out 0s;
+	        transition:all 0.6s ease-out 0s;
+}
+main[role="main-wrapper"] .drop-menu:hover ul{
+	transform: scaleY(1);
+}
+main[role="main-wrapper"] .drop-menu >a,
+main[role="main-wrapper"] .drop-menu{
+	position:relative;
+	width:auto;
+	display:inline-block;
+	padding-bottom:10px;
+	top:6px;
+}
+main[role="main-wrapper"] .drop-menu >a img{
+	background-color: #999999;
+    height: 30px;
+    position: relative;
+    right: 10px;
+    top: 0;
+    width: 30px;
+	border-radius:50%;
+}
+main[role="main-wrapper"] .drop-menu ul >li>a{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.7);
+    display: block;
+    padding: 10px 20px;
+    text-align: left;
+}
+main[role="main-wrapper"] .drop-menu ul >li:hover>a{
+	background:#4F81BD;
+	color:#fff
+}
+main[role="main-wrapper"] .drop-menu ul >li>a>i{
+	margin-right:5px;
+}
+main[role="main-wrapper"] .drop-menu ul >li:first-child>a{
+	border-radius:3px 3px 0 0 
+}
+main[role="main-wrapper"] .drop-menu ul >li:last-child>a{
+	border-radius:0 0 3px 3px 
+}
+main[role="main-wrapper"] .drop-menu ul:before {
+    border-bottom: 7px solid rgba(0, 0, 0, 0.2);
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: -7px;
+}
+main[role="main-wrapper"] .drop-menu ul:after {
+    border-bottom: 6px solid #ffffff;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: 16px;
+    top: -6px;
+}
+
+.form-control,
+.custom-select{
+    padding: 0.5rem 0.35rem;
+    font-size: 12px;
+    height:auto
+}
+
+.input-group-text{
+    font-size: 12px;
+}
